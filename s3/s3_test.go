@@ -7,8 +7,8 @@ import (
 
 func Test_SetFile(t *testing.T) {
 
-	os.Setenv("AWS_ACCESS_KEY_ID", "AKIAIPCCIXIL4Q64V63A")
-	os.Setenv("AWS_SECRET_ACCESS_KEY", "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")
+	os.Setenv("AWS_ACCESS_KEY_ID", "asdas")
+	os.Setenv("AWS_SECRET_ACCESS_KEY", "asdsada")
 
 	st, err := New("s3://eu-west-1/sqstruckstore/")
 
@@ -20,8 +20,8 @@ func Test_SetFile(t *testing.T) {
 
 func Test_LoadFile(t *testing.T) {
 
-	os.Setenv("AWS_ACCESS_KEY_ID", "AKIAIPCCIXIL4Q64V63A")
-	os.Setenv("AWS_SECRET_ACCESS_KEY", "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")
+	os.Setenv("AWS_ACCESS_KEY_ID", "asdsad")
+	os.Setenv("AWS_SECRET_ACCESS_KEY", "asdsadas")
 
 	st, err := New("s3://eu-west-1/sqstruckstore/")
 
